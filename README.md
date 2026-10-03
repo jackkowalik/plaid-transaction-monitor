@@ -1,6 +1,6 @@
 # plaid-transaction-monitor
 
-Bank account monitoring through Plaid, with a rules engine and alert delivery.
+Bank account monitoring through Plaid, with a rules engine and alert delivery. All of this was essentially stripped right from the codebase so commit history is not preserved, just like sanctions-etl.
 
 ## Why
 
@@ -8,7 +8,7 @@ Plaid checks each linked account for new transactions on its own schedule, usual
 
 This package lets each monitored account have its own interval. Short intervals are driven by paid refresh calls. Long intervals wait for Plaid's free automatic updates and process them when enough time has passed.
 
-It was built as a B2B product for Authorize Earth and never released.
+It was built as a B2B product for Authorize Earth and never released. This repository was extracted entirely from that private codebase, so commit history isn't preserved here.
 
 ## How it works
 
