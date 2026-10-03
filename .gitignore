@@ -1,0 +1,6 @@
+.env
+/vendor/
+*.db
+*.log
+.phpunit.result.cache
+.phpunit.cache/
